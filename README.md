@@ -6,7 +6,7 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
   </a>
-  <a href="/releases/latest">
+  <a href="https://github.com/1N0Name/New-File-Extension/releases/latest">
     <img src="https://img.shields.io/badge/version-v1.0.0-blue" alt="Version">
   </a>
 </p>
@@ -33,7 +33,7 @@ Gives option to install this via 2 different methods. All files are located in `
 - [ ] Add support of relative path to .reg and .inf files
 
 ## Donwload
-You can donwload latet version via [this link](https://github.com).
+You can donwload latet version via [this link](https://github.com/1N0Name/New-File-Extension/releases/latest).
 
 ## License
 [MIT](LICENSE)
