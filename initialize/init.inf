@@ -1,0 +1,24 @@
+[Version]
+Signature = $Chicago$
+
+[DefaultInstall]
+AddReg = AddFileType
+AddReg = AddFileInfo
+AddReg = AddContextMenu
+AddReg = AddCLSID
+
+[AddFileType]
+HKCR, .abc			    ,		    ,, "abcfile"
+HKCR, .abc\ShellNew		,"FileName"	,, "C:\\Users\\User\\Documents\\Git\\New-File-Extension\\resources\\BadCloud.png"
+
+[AddCLSID]
+HKCR, CLSID\{01b25495-d2f0-4568-a708-911d380db1be} ,,,
+
+[AddFileInfo]
+HKCR, abcfile				                ,,, "ABC File Type"
+HKCR, abcfile\DefaultIcon		            ,,, "C:\\Users\\User\\Documents\\Git\\New-File-Extension\\resources\\cloud.ico"
+HKCR, abcfile\shell\open\command	        ,,, """C:\Windows\system32\mspaint.exe""" """%1"""
+HKCR, abcfile\shellex\ContextMenuHandlers   ,,, "{01b25495-d2f0-4568-a708-911d380db1be}"
+
+[AddContextMenu]
+HKCR, *\shellex\ContextMenuHandlers\abc	,,, "{01b25495-d2f0-4568-a708-911d380db1be}"

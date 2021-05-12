@@ -1,0 +1,32 @@
+Windows Registry Editor Version 5.00
+
+;
+; AddFileType
+;
+[HKEY_CLASSES_ROOT\.abc]
+@ = "abcfile"
+[HKEY_CLASSES_ROOT\.abc\ShellNew]
+"FileName" = "C:\\Users\\User\\Documents\\Git\\New-File-Extension\\resources\\BadCloud.png"
+
+;
+; AddCLSID
+;
+[HKEY_CLASSES_ROOT\CLSID\{01b25495-d2f0-4568-a708-911d380db1be}]
+
+;
+; AddFileInfo
+;
+[HKEY_CLASSES_ROOT\abcfile]
+@ = "ABC File Type"
+[HKEY_CLASSES_ROOT\abcfile\DefaultIcon]
+@ = "C:\\Users\\User\\Documents\\Git\\New-File-Extension\\resources\\cloud.ico"
+[HKEY_CLASSES_ROOT\abcfile\shell\open\command]
+@ = "\"C:\\Windows\\system32\\mspaint.exe\" \"%1\""
+[HKEY_CLASSES_ROOT\abcfile\shellex\ContextMenuHandlers]
+@ = "{01b25495-d2f0-4568-a708-911d380db1be}"
+
+;
+; AddContextMenu
+;
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\abc]
+@ = "{01b25495-d2f0-4568-a708-911d380db1be}"
