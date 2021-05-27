@@ -17,14 +17,14 @@
 </p>
 
 ## Installation
-Gives option to install this via 3 different methods. All files are located in `\initialize\` folder.
+Gives option to install extension via 3 different methods. All files are located in `\initialize\` folder.
 * `init.reg` file;
 * `init.inf` file;
 * `init.exe` file.
 > .reg and .inf support only path C:\\Users\\User\\Git\\New-File-Extension
 
 ## Uninstall
-Gives option to install this via 2 different methods. All files are located in `\terminate\` folder.
+Gives option to install extension via 2 different methods. All files are located in `\terminate\` folder.
 * `terminate.reg` file;
 * `terminate.exe` file.
 
@@ -33,7 +33,7 @@ Gives option to install this via 2 different methods. All files are located in `
 - [ ] Add support of relative path to .reg and .inf files
 
 ## Donwload
-You can donwload latet version via [this link](https://github.com/1N0Name/New-File-Extension/releases/latest).
+You can donwload latest version [here](https://github.com/1N0Name/New-File-Extension/releases/latest).
 
 ## License
 [MIT](LICENSE)
